@@ -1,2 +1,3 @@
 # bootstrap-projects
-Developing od projects to develop bootstrap skills
+
+This repository is used to develop projects using bootstrap.
