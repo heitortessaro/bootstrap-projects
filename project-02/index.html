@@ -15,7 +15,7 @@
 
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Frontend Bootcamp</a>
 
@@ -74,7 +74,7 @@
     <!-- BOXES -->
     <section class="p-5">
         <div class="container">
-            <div class="row text-center">
+            <div class="row text-center g-4">
                 <div class="col-md">
                     <div class="card bg-dark text-light">
                         <div class="card-body text-center">
@@ -124,6 +124,160 @@
                             </p>
                             <a href="#" class="btn btn-primary">Read More</a>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learn Sections -->
+    <section class="p-1" id="learn">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="https://raw.githubusercontent.com/bradtraversy/bootstrap-bootcamp-website/7656406f5e7b5cb1ac5879df8fd93f1182e215bf/img/fundamentals.svg"
+                        alt="" class="img-fluid">
+                </div>
+                <div class="col-md p-5">
+                    <h2>Learn The Fundamentas</h2>
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, dolorem adipisci eius
+                        exercitationem omnis officiis.
+                    </p>
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis id iusto doloribus
+                        voluptas beatae aperiam atque maxime culpa! Aut, rem.
+                    </p>
+                    <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla dolor suscipit
+                        quidem a blanditiis quia consequuntur assumenda vel soluta et unde, perspiciatis, quibusdam
+                        earum dolores corporis, repellat eaque quod necessitatibus?
+                    </p>
+                    <a href="" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-right"></i> Read More
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="p-1 bg-dark text-light" id="learn">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-5">
+                    <h2>Learn Reackt</h2>
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis id iusto doloribus
+                        voluptas beatae aperiam atque maxime culpa! Aut, rem.
+                    </p>
+                    <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla dolor suscipit
+                        quidem a blanditiis quia consequuntur assumenda vel soluta et unde, perspiciatis, quibusdam
+                        earum dolores corporis, repellat eaque quod necessitatibus?
+                    </p>
+                    <a href="" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-right"></i> Read More
+                    </a>
+                </div>
+                <div class="col-md">
+                    <img src="https://raw.githubusercontent.com/bradtraversy/bootstrap-bootcamp-website/7656406f5e7b5cb1ac5879df8fd93f1182e215bf/img/react.svg"
+                        alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Question Accordion -->
+    <section class="p-5" id="questions">
+        <div class="container">
+            <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+            <div class="accordion accordion-flush" id="Questions">
+                <!-- ITEM 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-1">
+                            Where exactly are you located?
+                        </button>
+                    </h2>
+                    <div id="question-1" class="accordion-collapse collapse" data-bs-parent="#Questions">
+                        <!-- ITEM 1 -->
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis similique nam, quae minus
+                            dolorum eligendi assumenda nobis consequuntur veniam sit non dolor modi doloribus expedita
+                            adipisci, iusto cupiditate alias, ullam obcaecati voluptas nulla vel. Perspiciatis fugiat
+                            tenetur sapiente quos nulla? Obcaecati corporis libero totam ad voluptatibus, fugit quo
+                            doloribus rem.</div>
+                    </div>
+                </div>
+                <!-- ITEM 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-2">
+                            How much does it cost to attend?
+                        </button>
+                    </h2>
+                    <div id="question-2" class="accordion-collapse collapse" data-bs-parent="#Questions">
+                        <!-- ITEM 1 -->
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis similique nam, quae minus
+                            dolorum eligendi assumenda nobis consequuntur veniam sit non dolor modi doloribus expedita
+                            adipisci, iusto cupiditate alias, ullam obcaecati voluptas nulla vel. Perspiciatis fugiat
+                            tenetur sapiente quos nulla? Obcaecati corporis libero totam ad voluptatibus, fugit quo
+                            doloribus rem.</div>
+                    </div>
+                </div>
+                <!-- ITEM 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-3">
+                            What do I need to know?
+                        </button>
+                    </h2>
+                    <div id="question-3" class="accordion-collapse collapse" data-bs-parent="#Questions">
+                        <!-- ITEM 1 -->
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis similique nam, quae minus
+                            dolorum eligendi assumenda nobis consequuntur veniam sit non dolor modi doloribus expedita
+                            adipisci, iusto cupiditate alias, ullam obcaecati voluptas nulla vel. Perspiciatis fugiat
+                            tenetur sapiente quos nulla? Obcaecati corporis libero totam ad voluptatibus, fugit quo
+                            doloribus rem.</div>
+                    </div>
+                </div>
+                <!-- item 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-4">
+                            What do I sign up?
+                        </button>
+                    </h2>
+                    <div id="question-4" class="accordion-collapse collapse" data-bs-parent="#Questions">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis similique nam, quae minus
+                            dolorum eligendi assumenda nobis consequuntur veniam sit non dolor modi doloribus expedita
+                            adipisci, iusto cupiditate alias, ullam obcaecati voluptas nulla vel. Perspiciatis fugiat
+                            tenetur sapiente quos nulla? Obcaecati corporis libero totam ad voluptatibus, fugit quo
+                            doloribus rem.</div>
+                    </div>
+                </div>
+                <!-- item 5 -->
+                <!-- item 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-5">
+                            Do you help me find a job?
+                        </button>
+                    </h2>
+                    <div id="question-5" class="accordion-collapse collapse" data-bs-parent="#Questions">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis similique nam, quae minus
+                            dolorum eligendi assumenda nobis consequuntur veniam sit non dolor modi doloribus expedita
+                            adipisci, iusto cupiditate alias, ullam obcaecati voluptas nulla vel. Perspiciatis fugiat
+                            tenetur sapiente quos nulla? Obcaecati corporis libero totam ad voluptatibus, fugit quo
+                            doloribus rem.</div>
                     </div>
                 </div>
             </div>
